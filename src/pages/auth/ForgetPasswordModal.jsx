@@ -1,0 +1,3 @@
+const ForgetPasswordModal = () => {
+  return <></>;
+};
