@@ -414,7 +414,7 @@ export default function NewOrder(props) {
             <tbody className="text-newGray text-center ">
               {loading ? (
                 <div className="w-full mx-auto absolute mt-24 ">
-                  <PropagateLoader color="#00B7C9" />
+                  <PropagateLoader color="#0F766E" />
                 </div>
               ) : currentnewOrder.length === 0 ? (
                 <div className="w-full mx-auto absolute ">
@@ -571,3 +571,4 @@ const StyledLoader = styled(LoadingOverlay)`
   bottom: 0;
   left: 0;
 `;
+

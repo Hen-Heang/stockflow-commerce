@@ -136,7 +136,7 @@ function ReportDistributor() {
         data: dataSetStats, // order per month
         fill: false,
         borderColor: "rgb(75, 192, 192)",
-        backgroundColor: "#00b7c9",
+        backgroundColor: "#0f766e",
         tension: 0.1,
       },
     ],
@@ -246,7 +246,7 @@ function ReportDistributor() {
                 <div className="  flex flex-col sm:flex-row sm:justify-between  lg:justify-between w-full sm:w-4/5 lg:m-auto sm:gap-2 lg:gap-0 lg:ml-40 ">
                   {/* Expense */}
                   <div className="py-2 mb-2 sm:mb-0 pl-8 pr-24  shadow-md flex flex-col gap-1 rounded-lg border border-gray-200">
-                    <p className="text-[#00B7C9]">Expense</p>
+                    <p className="text-[#0F766E]">Expense</p>
                     <h2 className="text-xl text-black font-medium">
                       $ <span>{statsTime.totalExpense}</span>
                     </h2>
@@ -256,7 +256,7 @@ function ReportDistributor() {
                   </div>
                   {/* Expense */}
                   <div className="py-2 mb-2 sm:mb-0 pl-8 pr-24  shadow-md flex flex-col gap-1 rounded-lg border border-gray-200">
-                    <p className="text-[#00B7C9]">Profit</p>
+                    <p className="text-[#0F766E]">Profit</p>
                     <h2 className="text-xl text-black font-medium">
                       $ <span>{statsTime.totalProfit}</span>
                     </h2>
@@ -266,7 +266,7 @@ function ReportDistributor() {
                   </div>
                   {/* Expense */}
                   <div className="py-2 mb-2 sm:mb-0 pl-8 pr-24  shadow-md flex flex-col gap-1 rounded-lg border border-gray-200">
-                    <p className="text-[#00B7C9]">Total Orders</p>
+                    <p className="text-[#0F766E]">Total Orders</p>
                     <h2 className="text-xl text-black font-medium">
                       <span>{statsTime.totalOrder}</span>
                     </h2>
@@ -292,4 +292,5 @@ function ReportDistributor() {
 }
 
 export default ReportDistributor;
+
 

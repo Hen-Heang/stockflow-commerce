@@ -16,7 +16,7 @@ module.exports = ({
                 newRed: '#ED6666',
                 newWhite: '#ECEFF5',
                 black: '#09090c',
-                primary: '#00B7C9',
+                primary: '#0F766E',
                 cardColor :'#DEFCFF',
                 darkGray: '#121212',
                 brightRed: 'hsl(12, 88%, 59%)',
@@ -27,7 +27,7 @@ module.exports = ({
                 darkGrayishBlue: 'hsl(227, 12%, 61%)',
                 veryDarkBlue: 'hsl(233, 12%, 13%)',
                 backGroundColor : '#DEFCFF',
-                primaryColor : '#00B7C9',
+                primaryColor : '#0F766E',
                 logInText : '#777777',
                 whiteF: '#FFFFFF',
                 colorComplete: '#D5EFD6',
@@ -55,3 +55,4 @@ module.exports = ({
         scrollbar: ['rounded']
     }
 })
+

@@ -209,7 +209,7 @@ export default function Complete({ toggleTab }) {
             <tbody className="text-newGray text-center ">
               {loading ? (
                 <div className="w-full mx-auto absolute mt-24 ">
-                  <PropagateLoader color="#00B7C9" />
+                  <PropagateLoader color="#0F766E" />
                 </div>
               ) : currentComplete.length === 0 ? (
                 noData ? (
@@ -338,3 +338,4 @@ export default function Complete({ toggleTab }) {
     </div>
   );
 }
+

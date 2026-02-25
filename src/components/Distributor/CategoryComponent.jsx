@@ -356,7 +356,7 @@ export const CategoryComponent = (prop) => {
                         <tr>
                           <td colSpan={3}>
                             <div className="w-full h-36 flex justify-center items-center text-sm text-center border-none text-gray-500 dark:text-gray-400 border border-separate border-spacing-y-3">
-                              <PropagateLoader color="#00b7c9" />
+                              <PropagateLoader color="#0f766e" />
                             </div>
                           </td>
                         </tr>
@@ -770,3 +770,4 @@ export const CategoryComponent = (prop) => {
     </div>
   );
 };
+

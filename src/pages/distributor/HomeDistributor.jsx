@@ -317,7 +317,7 @@ const HomeDistributor = () => {
         distributorReport.totalOrderEachMonth :  [] ,
         fill: false,
         borderColor: "rgb(75, 192, 192)",
-        backgroundColor: "#00b7c9",
+        backgroundColor: "#0f766e",
         tension: 0.1,
       },
     ],

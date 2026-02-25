@@ -223,7 +223,7 @@ useEffect(() => {
             <tbody className="text-newGray text-center ">
               {loading ? (
                 <div className="w-full mx-auto absolute mt-24 ">
-                  <PropagateLoader color="#00B7C9" />
+                  <PropagateLoader color="#0F766E" />
                 </div>
               ) : currentPreparing.length === 0 ? (
                 noData ? (
@@ -354,3 +354,4 @@ const StyledLoader = styled(LoadingOverlay)`
   bottom: 0;
   left: 0;
 `;
+

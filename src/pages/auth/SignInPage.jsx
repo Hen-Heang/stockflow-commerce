@@ -267,8 +267,8 @@ export default function SignInPage() {
           Swal.fire({
             position: "center",
             icon: "success",
-            iconColor: "#00B7C9",
-            title: "<h1 style='color:#00B7C9'>Congratulations!</h1>",
+            iconColor: "#0F766E",
+            title: "<h1 style='color:#0F766E'>Congratulations!</h1>",
             text: "You have signed up successfully",
             showConfirmButton: false,
             timer: 2500,
@@ -290,7 +290,7 @@ export default function SignInPage() {
   const handleResendVerify = () => {
     let timerInterval;
     Swal.fire({
-      title: "<h1 style='color:#00B7C9'>Generating code !</h1>",
+      title: "<h1 style='color:#0F766E'>Generating code !</h1>",
       html: "Please wait for a few seconds",
       timer: 20000,
       timerProgressBar: true,
@@ -439,7 +439,7 @@ export default function SignInPage() {
               {successOTP ? (
                 <img src={require("../../assets/images/success.png")} alt="" />
               ) : (
-                <RingLoader color="#00b7c9" />
+                <RingLoader color="#0f766e" />
               )}
             </div>
             <h1 className="text-2xl font-medium text-primary">
@@ -449,7 +449,7 @@ export default function SignInPage() {
                 <>
                   Generating code
                   <span className="-mb-2">
-                    <PulseLoader size="4px" color="#00b7c9" />
+                    <PulseLoader size="4px" color="#0f766e" />
                   </span>
                 </>
               )}
@@ -757,7 +757,7 @@ export default function SignInPage() {
                                       )}
                                       inputStyle={{
                                         border: "1px solid transparent",
-                                        borderColor: "#00B7C9",
+                                        borderColor: "#0F766E",
                                         borderRadius: "8px",
                                         width: "54px",
                                         height: "54px",
@@ -1685,3 +1685,4 @@ export default function SignInPage() {
     </section>
   );
 }
+

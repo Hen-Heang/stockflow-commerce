@@ -119,7 +119,7 @@ const Navbar = () => {
       top: 5,
       border: `2px solid ${theme.palette.background.paper}`,
       padding: "0 4px",
-      background: "#00b7c9",
+      background: "#0f766e",
     },
   }));
 
@@ -716,3 +716,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

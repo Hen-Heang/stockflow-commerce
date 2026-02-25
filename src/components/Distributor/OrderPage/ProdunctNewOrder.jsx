@@ -112,7 +112,7 @@ export default function ProdunctNewOrder(props) {
                                             </tr>
                                         ))
                                         : <div className='w-full mx-auto text-center absolute mt-24 '>
-                                            <PropagateLoader color="#00B7C9" />
+                                            <PropagateLoader color="#0F766E" />
                                         </div>
                                     }
                                 </tbody>
@@ -185,3 +185,4 @@ export default function ProdunctNewOrder(props) {
         </div>
     )
 }
+

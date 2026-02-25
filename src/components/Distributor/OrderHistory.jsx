@@ -171,7 +171,7 @@ export default function OrderHistory() {
                 <tbody className="text-newGray">
                   {loading ? (
                     <div className="w-full mx-auto absolute mt-24 text-center ">
-                      <PropagateLoader color="#00B7C9" />
+                      <PropagateLoader color="#0F766E" />
                     </div>
                   ) : currentOrderHistoryList.length === 0 ? (
                     noData ? (
@@ -291,4 +291,5 @@ export default function OrderHistory() {
     </div>
   );
 }
+
 

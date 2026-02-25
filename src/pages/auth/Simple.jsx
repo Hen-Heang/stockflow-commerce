@@ -34,10 +34,11 @@ const SignInPage = () => {
   return (
     <>
       <div className="sweet-loading mt-56">
-        <ScaleLoader color="#00b7c9" width={15} />
+        <ScaleLoader color="#0f766e" width={15} />
       </div>
     </>
   );
 };
 
 export default SignInPage;
+

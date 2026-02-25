@@ -192,7 +192,7 @@ export default function Invoice(props) {
                     </table>
                   </div>
                   <div className='w-full mx-auto top-64 absolute text-center '>
-                    <PropagateLoader color="#00B7C9" />
+                    <PropagateLoader color="#0F766E" />
                   </div>
                 </div>
               }
@@ -203,3 +203,4 @@ export default function Invoice(props) {
     </div>
   );
 }
+

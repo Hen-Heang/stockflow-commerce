@@ -27,7 +27,7 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #00b7c9;
+  background: #0f766e;
 }
 .sign_up_bg {
   background-image: url("../src/assets/images/back_image.jpg");
@@ -38,7 +38,7 @@
 .distributor_bg {
   background: linear-gradient(
     to bottom,
-    #00b7c9 20%,
+    #0f766e 20%,
     #f5f5f5 0%,
     #f5f5f5 0%,
     #f5f5f5 0%

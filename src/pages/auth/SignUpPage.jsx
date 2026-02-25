@@ -186,8 +186,8 @@ const SignUpPage = () => {
         Swal.fire({
           position: "center",
           icon: "success",
-          iconColor: "#00B7C9",
-          title: "<h1 style='color:#00B7C9'>Congratulations!</h1>",
+          iconColor: "#0F766E",
+          title: "<h1 style='color:#0F766E'>Congratulations!</h1>",
           text: "You have signed up successfully",
           showConfirmButton: false,
           timer: 2500,
@@ -253,7 +253,7 @@ const SignUpPage = () => {
               {successOTP ? (
                 <img src={require("../../assets/images/success.png")} alt="" />
               ) : (
-                <RingLoader color="#00b7c9" />
+                <RingLoader color="#0f766e" />
               )}
             </div>
             <h1 className="text-2xl font-medium text-primary">
@@ -263,7 +263,7 @@ const SignUpPage = () => {
                 <>
                   Generating code
                   <span className="-mb-2">
-                    <PulseLoader size="4px" color="#00b7c9" />
+                    <PulseLoader size="4px" color="#0f766e" />
                   </span>
                 </>
               )}
@@ -712,7 +712,7 @@ const SignUpPage = () => {
                                       )}
                                       inputStyle={{
                                         border: "1px solid transparent",
-                                        borderColor: "#00B7C9",
+                                        borderColor: "#0F766E",
                                         borderRadius: "8px",
                                         width: "54px",
                                         height: "54px",
@@ -785,4 +785,5 @@ const SignUpPage = () => {
 };
 
 export default SignUpPage;
+
 

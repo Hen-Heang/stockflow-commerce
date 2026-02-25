@@ -505,7 +505,7 @@ const ProductDistributor = () => {
                             aria-hidden="true"
                             class="rounded-tr-full rounded-br-full w-5 h-5"
                             fill="none"
-                            stroke="#00b7c9"
+                            stroke="#0f766e"
                             viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg"
                           >
@@ -587,7 +587,7 @@ const ProductDistributor = () => {
                   <tr>
                     <td colSpan={5}>
                       <div className={`w-full flex justify-center mt-32`}>
-                        <PropagateLoader color="#00b7c9" />
+                        <PropagateLoader color="#0f766e" />
                       </div>
                     </td>
                   </tr>
@@ -1193,4 +1193,5 @@ const ProductDistributor = () => {
   );
 };
 export default ProductDistributor;
+
 
