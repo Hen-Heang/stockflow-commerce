@@ -46,7 +46,7 @@ module.exports = ({
                 primaryColorRetailer: '#F15B22',
             },
             fontFamily: {
-                Poppins: 'sans-serif',
+                Poppins: ['system-ui', '-apple-system', '"Segoe UI"', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
             },   
         },
     },
